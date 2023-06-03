@@ -34,12 +34,12 @@ class PlasticFurnitureFactory(FurnitureFactory):
 
 wooden_factory = WoodenFurnitureFactory()
 
-wooden_chair = wooden_factory.create_furniture("Стул фирмы ОАК")
+wooden_chair = wooden_factory.create_furniture("Деревянные и пластиковые")
 
 wooden_chair.sit()  
 
 plastic_factory = PlasticFurnitureFactory()
 
-plastic_sofa = plastic_factory.create_furniture("Пластиовый диван / белый")
+plastic_sofa = plastic_factory.create_furniture("Деревянные и пластиковые")
 
 plastic_sofa.sit()  
